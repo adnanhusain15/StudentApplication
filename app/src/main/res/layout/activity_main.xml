@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@mipmap/icon">
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="11dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Enter name"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="107dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Enter mobile no;"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="211dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Enter Cgpa"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="285dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Enter Internships"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="366dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Enter backlogs:"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/name"
+        android:textColor="#ffffff"
+        android:layout_width="143dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="14dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:hint="Enter name"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="149dp"
+        android:layout_height="59dp"
+        android:textColor="#ffffff"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="109dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:hint="Mobile Number"
+        android:inputType="number"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/cgpa"
+        android:textColor="#ffffff"
+        android:layout_width="139dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="211dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:hint="CGPA"
+        android:inputType="numberDecimal"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/insp"
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginLeft="197dp"
+        android:layout_marginTop="288dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:hint="No. of Internships"
+        android:inputType="number"
+        android:textColorHint="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/blog"
+        android:layout_width="145dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginTop="366dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:hint="No. of Backlogs"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="125dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="457dp"
+        android:background="#07000000"
+        android:gravity="center"
+        android:text="Submit"
+
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+</RelativeLayout>
