@@ -1,5 +1,5 @@
 package com.example.user.studentapplication;
-
+/*Use this appplication to populate the student database. */
 import android.content.ContentProvider;
 import android.content.ContentValues;
 import android.database.Cursor;
