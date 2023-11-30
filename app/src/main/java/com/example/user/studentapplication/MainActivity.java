@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
                     Uri muri = getContentResolver().insert(CONTENT_URI,con);
                     if(muri != null)
                         Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_LONG).show();
+
                 }
             }
         });
