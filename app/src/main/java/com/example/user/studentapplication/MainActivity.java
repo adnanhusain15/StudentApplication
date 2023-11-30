@@ -58,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
                     con.put("_insp",insp);
                     con.put("_blog",backk);
                     Uri muri = getContentResolver().insert(CONTENT_URI,con);
-                    if(muri != null){
+                    if(muri != null)
                         Toast.makeText(getApplicationContext(),"Successful",Toast.LENGTH_LONG).show();
-                    }
+
                 }
             }
         });
